@@ -17,7 +17,10 @@ module.exports = {
 • add `.releaserc`  
 ```
 {
-  "branches": ["main"]
+  "branches": ["main"],
+  "plugins": [
+    "@semantic-release/git"
+  ]
 }
 ```  
 • add `.github/workflows/release.yml`:  

@@ -5,6 +5,12 @@ My semantic release
 • Create GitHub **public** repository  
 • `npm init`  
 • update `package.json` to add `"private": false`  
+• add `index.js`:
+```
+module.exports = {
+  hello: () => console.log('hello world!')
+}
+```  
 • `commitizen init cz-conventional-changelog --save-dev --save-exact`  
 • add `package.json` scripts `"commit": "npx cz"`  
 • `npx semantic-release-cli setup`  
@@ -44,4 +50,7 @@ jobs:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
 ```  
-• `npm i`
+• `npm i`  
+• `git add .`  
+• `npm run commit`  
+• `git push`

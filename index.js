@@ -1,3 +1,4 @@
 module.exports = {
-  hello: () => console.log('hello world!')
+  hello: () => console.log('hello world!'),
+  plus: (a, b) => console.log(a + b)
 }

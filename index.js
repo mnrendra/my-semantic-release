@@ -6,4 +6,5 @@ module.exports = {
   divides: (a, b) => console.log(a / b),
   hai: () => console.log('hai!'),
   pie: () => console.log('pie!'),
+  soyo: () => console.log('soyo!'),
 }

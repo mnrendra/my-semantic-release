@@ -1,21 +1,3 @@
-# my-semantic-release
-My semantic release  
-
-## Steps
-• Create GitHub **public** repository  
-• `npm init`  
-• update `package.json` to add `"private": false`  
-• `commitizen init cz-conventional-changelog --save-dev --save-exact`  
-• add `package.json` scripts `"commit": "npx cz"`  
-• `npx semantic-release-cli setup`  
-• add `.releaserc`  
-```
-{
-  "branches": ["main"]
-}
-```  
-• add `.github/workflows/release.yml`:  
-```
 name: Release
 on:
   push:
@@ -43,5 +25,3 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx semantic-release
-```  
-• `npm i`

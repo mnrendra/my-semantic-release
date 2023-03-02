@@ -5,4 +5,5 @@ module.exports = {
   times: (a, b) => console.log(a * b),
   divides: (a, b) => console.log(a / b),
   hai: () => console.log('hai!'),
+  pie: () => console.log('pie!'),
 }

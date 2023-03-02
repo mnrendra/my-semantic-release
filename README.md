@@ -19,7 +19,10 @@ module.exports = {
 {
   "branches": ["main"],
   "plugins": [
-    "@semantic-release/git"
+    ["@semantic-release/git", {
+      "assets": ["package.json", "package-lock.json"],
+      "message": "chore(release): ${nextRelease.version}\n\n${nextRelease.notes}"
+    }]
   ]
 }
 ```  

@@ -4,4 +4,5 @@ module.exports = {
   minus: (a, b) => console.log(a - b),
   times: (a, b) => console.log(a * b),
   divides: (a, b) => console.log(a / b),
+  hai: () => console.log('hai!'),
 }

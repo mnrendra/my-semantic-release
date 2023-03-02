@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mnrendra/my-semantic-release#readme",
   "devDependencies": {
+    "@semantic-release/git": "^10.0.1",
     "cz-conventional-changelog": "^3.3.0",
     "semantic-release": "^20.1.1"
   },

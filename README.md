@@ -23,6 +23,7 @@ module.exports = {
   ]
 }
 ```  
+• `npm i @semantic-release/git`  
 • add `.github/workflows/release.yml`:  
 ```
 name: Release

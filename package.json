@@ -1,6 +1,6 @@
 {
   "name": "my-semantic-release",
-  "version": "1.4.0",
+  "version": "1.6.0",
   "description": "My semantic release",
   "private": false,
   "main": "index.js",
